@@ -1,0 +1,17 @@
+{
+    "name": "rudinas/crmit",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rudinandrey",
+            "email": "rudinandrey@yandex.ru"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree-core": "^3.7"
+    }
+}

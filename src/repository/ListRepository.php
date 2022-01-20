@@ -5,7 +5,7 @@ namespace repository;
 class ListRepository extends Repository
 {
     public function getAllCards($uuid) {
-        $sql = "SELECT jokes.id, jokes.joke 
+        $sql = "SELECT jokes.id, jokes.joke, votes.id as vote 
                 FROM jokes 
                     LEFT JOIN votes ON votes.joke_id = jokes.id 
                         AND votes.uuid =:uuid 

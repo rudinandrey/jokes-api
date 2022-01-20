@@ -9,6 +9,7 @@ require("../vendor/autoload.php");
 $f3 = Base::instance();
 $f3->set("ROOT", __DIR__."/../src/");
 $f3->set("UI", __DIR__."/../src/views/");
+$f3->set("LOGS", __DIR__."/../log/");
 
 
 $f3->route("GET /list", function ($f3) {
